@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Game Portal</h1>
+        <nav>
+            <input type="text" id="gameSearch" placeholder="Search games..." onkeyup="searchGames()">
+        </nav>
+    </header>
+
+    <main class="games-grid" id="gamesGrid">
+        <!-- Game Card Example -->
+        <a href="games/bloxcraft.html" class="game-card">
+            <img src="https://via.placeholder.com/150" alt="Bloxcraft">
+            <div class="game-info">
+                <h3>Bloxcraft</h3>
+                <p>Build and explore!</p>
+            </div>
+        </a>
+
+        <!-- More Game Cards -->
+        <a href="games/example.html" class="game-card">
+            <img src="https://via.placeholder.com/150" alt="Space Racer">
+            <div class="game-info">
+                <h3>Space Racer</h3>
+                <p>Fast paced racing.</p>
+            </div>
+        </a>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
